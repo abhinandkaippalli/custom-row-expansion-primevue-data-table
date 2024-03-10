@@ -35,3 +35,8 @@ This allows for dynamic expansion and collapsing of rows without explicitly usin
 The template utilizes Vue's reactivity system to render expanded rows dynamically.
 It uses the v-model directive to bind the expandedRows object to the DataTable component.
 When a row's id is present in the expandedRows object, the corresponding row is expanded to display additional details.
+
+# Final Output
+https://github.com/abhinandkaippalli/custom-row-expansion-primevue-data-table/assets/114295910/1da36d1a-504b-4cbe-9d49-bd914533f08b
+
+
