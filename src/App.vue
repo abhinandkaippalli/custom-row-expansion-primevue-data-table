@@ -20,7 +20,7 @@ import { reactive, onMounted } from 'vue';
 import DataTable from 'primevue/datatable';
 import Column from 'primevue/column'
 import Button from 'primevue/button'
-import { StudentMark } from './service/ProsductService'
+import { StudentMark } from './service/StudentMark'
 const state = reactive({
   markList: [],
   expandedRows: {}
@@ -34,4 +34,4 @@ const onExpandRow = (id) => {
   else state.expandedRows[id] = true
   state.expandedRows = { ...state.expandedRows }
 }
-</script>
+</script>./service/StudentMark
