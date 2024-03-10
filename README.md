@@ -12,7 +12,6 @@ This method takes the id of the row (student) as a parameter.
     </Column>
 
 ![Screenshot 2024-03-10 162441](https://github.com/abhinandkaippalli/custom-row-expansion-primevue-data-table/assets/114295910/ca53be37-d475-4a01-8f8d-42b23ad04ccd)
-
 ![Screenshot 2024-03-10 163023](https://github.com/abhinandkaippalli/custom-row-expansion-primevue-data-table/assets/114295910/feb6aa67-5806-4def-a4ec-478f9405d027)
 
 # Expansion Logic
