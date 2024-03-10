@@ -34,4 +34,4 @@ const onExpandRow = (id) => {
   else state.expandedRows[id] = true
   state.expandedRows = { ...state.expandedRows }
 }
-</script>./service/StudentMark
+</script>
