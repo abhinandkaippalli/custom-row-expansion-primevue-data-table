@@ -19,12 +19,12 @@ It checks whether the id of the clicked row exists in the state.expandedRows obj
 If it exists, it means the row is already expanded, so it removes the id from the expandedRows object to collapse it.
 If it doesn't exist, it means the row is not expanded, so it adds the id to the expandedRows object to expand it.
 
-const onExpandRow = (id) => {
-  const checkProp = id in state.expandedRows
-  if (checkProp) delete state.expandedRows[id]
-  else state.expandedRows[id] = true
-  state.expandedRows = { ...state.expandedRows }
-}
+    const onExpandRow = (id) => {
+      const checkProp = id in state.expandedRows
+      if (checkProp) delete state.expandedRows[id]
+      else state.expandedRows[id] = true
+      state.expandedRows = { ...state.expandedRows }
+    }
 
 # Reactivity
 The state.expandedRows object is reactive, meaning any changes to it will trigger re-renders in the template.
