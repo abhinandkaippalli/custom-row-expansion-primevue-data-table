@@ -5,11 +5,11 @@ This code demonstrate how to expand a row without using an expander in a column,
 The "View Mark" button within the DataTable triggers a method called onExpandRow when clicked.
 This method takes the id of the row (student) as a parameter.
 
-    <Column header="View Marks">
-      <template #body="slotProps">
-        <Button class="p-1" label="Click Here" @click.stop="onExpandRow(slotProps.data.id)" />
-      </template>
-    </Column>
+<Column header="View Marks">
+  <template #body="slotProps">
+    <Button class="p-1" label="Click Here" @click.stop="onExpandRow(slotProps.data.id)" />
+  </template>
+</Column>
 
 # Expansion Logic
 The onExpandRow function toggles the expansion state of the row corresponding to the clicked button.
